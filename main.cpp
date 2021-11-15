@@ -1,0 +1,18 @@
+
+// Conway's Game of Life
+// Made using SDL2
+
+#include <iostream>
+using namespace std;
+
+#include "Game.h"
+
+int main(int argc, char*[]) {
+	
+	Game myGame;
+	myGame.Run();
+
+	cout << "Game ended. Now closing..." << endl;
+
+	return 0;
+}
